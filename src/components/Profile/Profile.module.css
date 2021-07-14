@@ -1,0 +1,24 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.infoPart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.PictureBlock {
+    float: left;
+}
+
+/* Small screens */
+@media only screen and (max-width: 600px) {
+    .infoPart {
+        flex-direction: column;
+        align-items: center
+    }
+}

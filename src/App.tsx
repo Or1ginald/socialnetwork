@@ -1,7 +1,7 @@
 import React from 'react';
 import a from './App.module.css';
-import Navigation from "./components/Navigation";
-import Profile from "./components/Profile";
+import Navigation from "./components/Navigation/Navigation";
+import Profile from "./components/Profile/Profile";
 
 function App() {
     return (
