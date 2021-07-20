@@ -51,10 +51,22 @@
     margin: 0 1.5rem;
 }
 
+.navImg {
+    width: 2rem;
+    min-width: 2rem;
+    margin: 0 1.5rem;
+}
+
 .navLink:hover .svg{
     filter: invert(46%) sepia(50%) saturate(4834%) hue-rotate(298deg) brightness(95%) contrast(83%);
     transition: var(--transition-speed);
 }
+
+.navImg{
+    filter: invert(46%) sepia(50%) saturate(4834%) hue-rotate(298deg) brightness(95%) contrast(83%);
+    transition: var(--transition-speed);
+}
+
 
 .faPrimary {
     color: #ff7eee;
