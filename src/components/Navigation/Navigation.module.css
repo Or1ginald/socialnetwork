@@ -45,7 +45,7 @@
     margin-left: 1rem;
 }
 
-.navLink svg {
+.navLink img {
     width: 2rem;
     min-width: 2rem;
     margin: 0 1.5rem;
@@ -68,18 +68,6 @@
 }
 
 
-.faPrimary {
-    color: #ff7eee;
-}
-
-.faSecondary {
-    color: #df49a6;
-}
-
-.faPrimary,
-.faSecondary {
-    transition: var(--transition-speed);
-}
 
 .logo {
     font-weight: bold;
@@ -93,7 +81,7 @@
     width: 100%;
 }
 
-.logo svg {
+.logo img {
     transform: rotate(0deg);
     transition: var(--transition-speed);
 }
@@ -107,7 +95,7 @@
     margin-left: 63px
 }
 
-.navbar:hover .logo svg {
+.navbar:hover .logo img {
     transform: rotate(-180deg);
     filter: invert(46%) sepia(50%) saturate(4834%) hue-rotate(298deg) brightness(95%) contrast(83%);
 }
