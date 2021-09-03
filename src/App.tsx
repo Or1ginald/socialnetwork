@@ -3,7 +3,7 @@ import a from './App.module.css';
 import Navigation from "./components/Navigation/Navigation";
 import Profile from "./components/Profile/Profile/Profile";
 import {BrowserRouter, Route} from "react-router-dom";
-import Messages from "./components/MainContent/Messages";
+import Messages from "./components/MainContent/Messages/Messages";
 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
             <div className="App">
                 <div className={a.appWrapper}>
                     <Navigation/>
-                    <div className={a.content}>
+                    <div>
                         <Route path={'/profile'}>
                             <Profile/>
                         </Route>

@@ -1,0 +1,26 @@
+.sidebar {
+    width: 350px;
+    border-right: 1px solid #000000;
+    height: 100vh;
+}
+.sidebar form {
+    padding: 17px 30px;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 30px;
+    font-weight: 600;
+}
+
+.input {
+    width: 100%;
+    border-radius: 5px;
+    height: auto;
+    border: 1px solid #000000;
+    padding: 10px 15px;
+}

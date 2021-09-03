@@ -11,9 +11,6 @@
     padding: 10px;
 }
 
-.PictureBlock {
-    float: left;
-}
 
 /* Small screens */
 @media only screen and (max-width: 600px) {

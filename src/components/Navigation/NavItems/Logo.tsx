@@ -12,7 +12,6 @@ function Logo(props: LogoPropsType) {
     return (
         <li className={n.logo}>
             <NavLink to={props.link} className={n.navLink}>
-                <span className={`${n.linkText}  ${n.logoText}`}>{props.title}</span>
                 <img src={logo} alt="" className=""/>
             </NavLink>
         </li>

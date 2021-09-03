@@ -6,6 +6,7 @@ import messages from "../../../images/svg/messages.svg"
 import music from "../../../images/svg/music.svg"
 import news from "../../../images/svg/news.svg"
 import settings from "../../../images/svg/settings.svg"
+import logo from "../../../images/svg/doubleArrow.svg"
 
 
 type NavElementPropsType = {
@@ -16,6 +17,9 @@ type NavElementPropsType = {
 
 function chooseSvg(title: string) {
     //Svg choosing
+    if(title==='Logo'){
+        return logo
+    }
     if (title === "Profile") {
         return human;
     }
@@ -37,12 +41,10 @@ function chooseSvg(title: string) {
 
 function NavElement(props: NavElementPropsType) {
 
-
     return (
         <li className={n.navItem}>
-            <NavLink to={props.link} className={n.navLink}>
+            <NavLink to={props.link} className={props.title==='Logo'? n.logo :n.navLink}>
                 <img src={chooseSvg(props.title)} alt="" className={n.navImg}/>
-                <span className={n.linkText}>{props.title}</span>
             </NavLink>
         </li>
     )

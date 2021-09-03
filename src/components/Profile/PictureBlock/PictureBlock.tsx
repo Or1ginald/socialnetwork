@@ -1,6 +1,6 @@
 import React from 'react';
 import p from "./PictureBlock.module.css"
-import profPic from "../../../images/prof.pic1.jpg"
+import profPic from "../../../../public/images/prof.pic1.jpg"
 
 function PictureBlock() {
     return (
